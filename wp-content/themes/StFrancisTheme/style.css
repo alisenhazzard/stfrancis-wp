@@ -1,0 +1,58 @@
+/*
+Theme Name: St. Francis Theme
+Theme URI: http://localhost/stfrancis.com/
+Author: Alisen Hazzard
+Author URI: http://theapplecartproject.com
+Description: Child theme for Spacious
+Version: 1.0
+Template: Spacious
+*/
+
+@import "../spacious/style.css";
+
+#click-menu {
+	padding: 5px 5px 0 5px !important;
+}
+#header-text-nav-container {
+	height: 125px;
+	padding-top: 75px;
+}
+.search-icon {
+	display: none;
+}
+input.s {
+	height: 32px;
+}
+
+@media screen and (min-width: 767px) {
+	#header-text-nav-container {
+		height: 112px;
+		padding-top: 20px;
+	}
+	.main-navigation {
+		background: rgba(0,0,0,0.1);
+	}
+	.main-navigation li {
+		padding-left: 21px;
+	}
+	.main-navigation ul li ul {
+		top: 46px;
+	}
+
+@media screen and (max-width: 767px) {
+	#text-24,
+	#search-2 {
+		display: none;
+	}
+	#secondary {
+		border-top: 1px solid #aaa;
+	}
+}
+@media screen and (min-width: 900px) {
+	.main-navigation li {
+		padding-left: 25px;
+	}
+}
+.menu-toggle {
+	display: none;
+}
